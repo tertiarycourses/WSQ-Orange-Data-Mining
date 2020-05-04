@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Datasets" position="(117.0, 212.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" title="Datasets" version="" />
+		<node id="1" name="Feature Statistics" position="(253.0, 186.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owfeaturestatistics.OWFeatureStatistics" title="Feature Statistics" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04&gt;\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00(\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01C\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01C\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01P\x00\x00\x00\xff\x00\x00\x05\x9b\x00\x00\x03\x08\x00\x00\x01P\x00\x00\x01\x15\x00\x00\x05\x9b\x00\x00\x03\x08\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x01P\x00\x00\x01\x15\x00\x00\x05\x9b\x00\x00\x03\x08', 'selected_id': 'core/iris.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWBIAAABjb250cm9sQXJlYVZpc2libGVxAYhYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlx
+Ak5YCwAAAF9fdmVyc2lvbl9fcQNLAVgQAAAAY29udGV4dF9zZXR0aW5nc3EEXXEFY29yYW5nZXdp
+ZGdldC5zZXR0aW5ncwpDb250ZXh0CnEGKYFxB31xCChYBAAAAHRpbWVxCUdB16rxX5Y/cFgGAAAA
+dmFsdWVzcQp9cQsoWAsAAABhdXRvX2NvbW1pdHEMiEr+////hnENWAkAAABjb2xvcl92YXJxDlgE
+AAAAaXJpc3EPS2WGcRBYDQAAAHNlbGVjdGVkX3Jvd3NxEV1xElgHAAAAc29ydGluZ3ETSwBjc2lw
+Cl91bnBpY2tsZV9lbnVtCnEUWAwAAABQeVF0NS5RdENvcmVxFVgJAAAAU29ydE9yZGVycRZLAYdx
+F1JxGIZxGUr+////hnEaaANLAXVYCgAAAGF0dHJpYnV0ZXNxG31xHChYDAAAAHNlcGFsIGxlbmd0
+aHEdSwJYCwAAAHNlcGFsIHdpZHRocR5LAlgMAAAAcGV0YWwgbGVuZ3RocR9LAlgLAAAAcGV0YWwg
+d2lkdGhxIEsCaA9LAXVYBQAAAG1ldGFzcSF9cSJ1YmF1Lg==
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

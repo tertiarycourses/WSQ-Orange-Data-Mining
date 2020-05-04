@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="CSV File Import" position="(149.0, 228.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" title="CSV File Import" version="" />
+		<node id="1" name="Data Table" position="(256.0, 159.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="2" name="Distributions" position="(265.0, 285.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" title="Distributions" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="0" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'_session_items': [('/Users/alfred/Documents/Documents – Alfred’s MacBook Pro/Training/WSQ - Data Mining and Machine Learning with Orange/data/iris.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 5, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'controlAreaVisible': True, 'dialog_state': {'directory': '/Users/alfred/Documents/Documents – Alfred’s MacBook Pro/Training/WSQ - Data Mining and Machine Learning with Orange/data', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd3\x00\x00\x01N\x00\x00\x04\x18\x00\x00\x02\xb9\x00\x00\x02\xd3\x00\x00\x01d\x00\x00\x04\x18\x00\x00\x02\xb9\x00\x00\x00\x00\x02\x00\x00\x00\x07\x00\x00\x00\x02\xd3\x00\x00\x01d\x00\x00\x04\x18\x00\x00\x02\xb9', '__version__': 1}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAohYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQ0IB2dDLAAMAAAAAAeYAAAD/AAAFBQAAAwgAAAHmAAABFQAABQUA
+AAMIAAAAAAAAAAAHAAAAAeYAAAEVAAAFBQAAAwhxB1gLAAAAc2VsZWN0X3Jvd3NxCIhYDQAAAHNl
+bGVjdGVkX2NvbHNxCV1xClgNAAAAc2VsZWN0ZWRfcm93c3ELXXEMWBUAAABzaG93X2F0dHJpYnV0
+ZV9sYWJlbHNxDYhYEgAAAHNob3dfZGlzdHJpYnV0aW9uc3EOiVgLAAAAX192ZXJzaW9uX19xD0sB
+WBAAAABjb250ZXh0X3NldHRpbmdzcRBdcREoY29yYW5nZXdpZGdldC5zZXR0aW5ncwpDb250ZXh0
+CnESKYFxE31xFChYBAAAAHRpbWVxFUdB16q8xNb1DlgGAAAAdmFsdWVzcRZ9cRdoD0sBc1gKAAAA
+YXR0cmlidXRlc3EYfXEZKFgMAAAAc2VwYWwubGVuZ3RocRpLAlgLAAAAc2VwYWwud2lkdGhxG0sC
+WAwAAABwZXRhbC5sZW5ndGhxHEsCWAsAAABwZXRhbC53aWR0aHEdSwJ1WAUAAABtZXRhc3EefXEf
+WAcAAAB2YXJpZXR5cSBLA3N1YmgSKYFxIX1xIihoFUdB16q8xNbyb2gWfXEjaA9LAXNoGH1xJChY
+DAAAAHNlcGFsLmxlbmd0aHElSwJYCwAAAHNlcGFsLndpZHRocSZLAlgMAAAAcGV0YWwubGVuZ3Ro
+cSdLAlgLAAAAcGV0YWwud2lkdGhxKEsCdWgefXEpWAcAAAB2YXJpZXR5cSpLA3N1YmV1Lg==
+</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWAoAAABhdXRvX2FwcGx5cQGIWBIAAABjb250cm9sQXJlYVZpc2libGVxAohYEAAAAGN1
+bXVsYXRpdmVfZGlzdHJxA4lYEwAAAGZpdHRlZF9kaXN0cmlidXRpb25xBEsBWAkAAABoaWRlX2Jh
+cnNxBYlYDQAAAGtkZV9zbW9vdGhpbmdxBksKWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQdDQgHZ
+0MsAAwAAAAACagAAARoAAAYVAAADgAAAAmoAAAEwAAAGFQAAA4AAAAAAAAAAAAcAAAACagAAATAA
+AAYVAAADgHEIWAoAAABzaG93X3Byb2JzcQmJWA8AAABzdGFja2VkX2NvbHVtbnNxColYCwAAAF9f
+dmVyc2lvbl9fcQtLAVgQAAAAY29udGV4dF9zZXR0aW5nc3EMXXENKGNvcmFuZ2V3aWRnZXQuc2V0
+dGluZ3MKQ29udGV4dApxDimBcQ99cRAoWAQAAAB0aW1lcRFHQdeqvMTc7Q9YBgAAAHZhbHVlc3ES
+fXETKFgEAAAAY3ZhcnEUTkr+////hnEVWA4AAABudW1iZXJfb2ZfYmluc3EWSwFK/v///4ZxF1gJ
+AAAAc2VsZWN0aW9ucRhjYnVpbHRpbnMKc2V0CnEZXXEahXEbUnEcSv7///+GcR1YAwAAAHZhcnEe
+WAsAAABwZXRhbC53aWR0aHEfS2aGcSBoC0sBdVgKAAAAYXR0cmlidXRlc3EhfXEiKFgMAAAAc2Vw
+YWwubGVuZ3RocSNLAlgLAAAAc2VwYWwud2lkdGhxJEsCWAwAAABwZXRhbC5sZW5ndGhxJUsCaB9L
+AnVYBQAAAG1ldGFzcSZ9cSdYBwAAAHZhcmlldHlxKEsDc3ViaA4pgXEpfXEqKGgRR0HXqrzE3OkI
+aBJ9cSsoaBROSv7///+GcSxoFksESv7///+GcS1oGGgZXXEuhXEvUnEwSv7///+GcTFoHlgMAAAA
+c2VwYWwubGVuZ3RocTJLZoZxM2gLSwF1aCF9cTQoaDJLAlgLAAAAc2VwYWwud2lkdGhxNUsCWAwA
+AABwZXRhbC5sZW5ndGhxNksCWAsAAABwZXRhbC53aWR0aHE3SwJ1aCZ9cThYBwAAAHZhcmlldHlx
+OUsDc3ViZXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

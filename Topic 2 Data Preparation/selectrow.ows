@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Datasets" position="(120.0, 215.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" title="Datasets" version="" />
+		<node id="1" name="Select Rows" position="(228.0, 199.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" title="Select Rows" version="" />
+		<node id="2" name="Data Table" position="(392.0, 141.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Matching Data" source_node_id="1" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03_\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00(\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01C\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d', 'savedWidgetGeometry': None, 'selected_id': 'core/iris.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgSAAAAY29udHJvbEFyZWFWaXNpYmxlcQKIWBAAAABw
+dXJnZV9hdHRyaWJ1dGVzcQOJWA0AAABwdXJnZV9jbGFzc2VzcQSJWBMAAABzYXZlZFdpZGdldEdl
+b21ldHJ5cQVDQgHZ0MsAAwAAAAACSgAAATEAAAShAAAC1gAAAkoAAAFHAAAEoQAAAtYAAAAAAAAA
+AAcAAAACSgAAAUcAAAShAAAC1nEGWBAAAAB1cGRhdGVfb25fY2hhbmdlcQeIWAsAAABfX3ZlcnNp
+b25fX3EISwJYEAAAAGNvbnRleHRfc2V0dGluZ3NxCV1xCmNvcmFuZ2V3aWRnZXQuc2V0dGluZ3MK
+Q29udGV4dApxCymBcQx9cQ0oWAQAAAB0aW1lcQ5HQdeq6fmLU1RYBgAAAHZhbHVlc3EPfXEQKFgK
+AAAAY29uZGl0aW9uc3ERXXESKFgEAAAAaXJpc3ETSwFLAksBSwKGcRR0cRVhaAhLAnVYCgAAAGF0
+dHJpYnV0ZXNxFn1xFyhYDAAAAHNlcGFsIGxlbmd0aHEYSwJYCwAAAHNlcGFsIHdpZHRocRlLAlgM
+AAAAcGV0YWwgbGVuZ3RocRpLAlgLAAAAcGV0YWwgd2lkdGhxG0sCWAQAAABpcmlzcRxLAXVYBQAA
+AG1ldGFzcR19cR51YmF1Lg==
+</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAohYEgAAAGNvbnRy
+b2xBcmVhVmlzaWJsZXEDiFgOAAAAZGlzdF9jb2xvcl9SR0JxBChL3EvcS9xL/3RxBVgTAAAAc2F2
+ZWRXaWRnZXRHZW9tZXRyeXEGQ0IB2dDLAAMAAAAAAeYAAAD/AAAFBQAAAwgAAAHmAAABFQAABQUA
+AAMIAAAAAAAAAAAHAAAAAeYAAAEVAAAFBQAAAwhxB1gLAAAAc2VsZWN0X3Jvd3NxCIhYDQAAAHNl
+bGVjdGVkX2NvbHNxCV1xClgNAAAAc2VsZWN0ZWRfcm93c3ELXXEMWBUAAABzaG93X2F0dHJpYnV0
+ZV9sYWJlbHNxDYhYEgAAAHNob3dfZGlzdHJpYnV0aW9uc3EOiVgLAAAAX192ZXJzaW9uX19xD0sB
+WBAAAABjb250ZXh0X3NldHRpbmdzcRBdcREoY29yYW5nZXdpZGdldC5zZXR0aW5ncwpDb250ZXh0
+CnESKYFxE31xFChYBAAAAHRpbWVxFUdB16rqBWxy/FgGAAAAdmFsdWVzcRZ9cRdoD0sBc1gKAAAA
+YXR0cmlidXRlc3EYfXEZKFgMAAAAc2VwYWwgbGVuZ3RocRpLAlgLAAAAc2VwYWwgd2lkdGhxG0sC
+WAwAAABwZXRhbCBsZW5ndGhxHEsCWAsAAABwZXRhbCB3aWR0aHEdSwJYBAAAAGlyaXNxHmNPcmFu
+Z2UuZGF0YS52YXJpYWJsZQpUdXBsZUxpc3QKcR9YCwAAAElyaXMtc2V0b3NhcSBYDwAAAElyaXMt
+dmVyc2ljb2xvcnEhWA4AAABJcmlzLXZpcmdpbmljYXEih3EjhXEkgXEldVgFAAAAbWV0YXNxJn1x
+J3ViaBIpgXEofXEpKGgVR0HXquoFbHAAaBZ9cSpoD0sBc2gYfXErKGgaSwJoG0sCaBxLAmgdSwJo
+HmgldWgmfXEsdWJoEimBcS19cS4oaBVHQdeq6gS1mQNoFn1xL2gPSwFzaBh9cTAoaBpLAmgbSwJo
+HEsCaB1LAmgeaCV1aCZ9cTF1YmgSKYFxMn1xMyhoFUdB16rqBJCemWgWfXE0aA9LAXNoGH1xNSho
+GksCaBtLAmgcSwJoHUsCaB5oJXVoJn1xNnViaBIpgXE3fXE4KGgVR0HXquoDGRI4aBZ9cTloD0sB
+c2gYfXE6KGgaSwJoG0sCaBxLAmgdSwJoHmgldWgmfXE7dWJldS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
