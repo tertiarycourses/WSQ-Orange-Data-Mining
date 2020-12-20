@@ -1,5 +1,5 @@
 # WSQ - Data Mining and Machine Learning with Orange
-## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
+## by [Tertiary Courses](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [WSQ - Data Mining and Machine Learning with Orange](https://www.tertiarycourses.com.sg/wsq-data-mining-orange.html) course. 
 
